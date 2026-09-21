@@ -140,19 +140,19 @@ if not path.exists():
     raise SystemExit(0)
 text = path.read_text()
 
-def version_from(filename: str, suffix: str) -> str | None:
+def version_from(filename, suffix):
     prefix = f"{app}-"
     if filename.startswith(prefix) and filename.endswith(suffix):
         return filename[len(prefix) : -len(suffix)]
     return None
 
-def enclosure(match: re.Match[str]) -> str:
+def enclosure(match):
     filename = match.group(1)
     version = version_from(filename, ".dmg") or "1.0"
     url = f"https://github.com/{owner}/{repo}/releases/download/v{version}/{filename}"
     return f'url="{url}"'
 
-def notes(match: re.Match[str]) -> str:
+def notes(match):
     filename = match.group(1)
     version = version_from(filename, ".md") or "1.0"
     url = f"https://github.com/{owner}/{repo}/releases/download/v{version}/{filename}"
