@@ -1,0 +1,528 @@
+{
+  "_howToAdd": "Drop a PNG into Mockups/Images. Add an entry below. screen.points are TL, TR, BR, BL as 0–1 of the image. Or use mode rect with x,y,width,height. Omit screen to auto-detect the black display.",
+  "mockups": [
+    {
+      "id": "blank",
+      "name": "Blank",
+      "blurb": "No device — your clip sits on the background",
+      "image": "",
+      "category": "blank",
+      "cornerRadius": 18,
+      "screen": {
+        "mode": "rect",
+        "x": 0.08,
+        "y": 0.10,
+        "width": 0.84,
+        "height": 0.80
+      }
+    },
+    
+     {
+       "id": "blue-showcase",
+       "name": "Blue Showcase",
+       "blurb": "Display mockup with a blue showcase background",
+       "image": "Blue Showcase.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.1813, 0.2125],
+           [0.7042, 0.0892],
+           [0.7786, 0.5823],
+           [0.2613, 0.7652]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "clean-showcase",
+       "name": "Clean Showcase",
+       "blurb": "Clean minimal display showcase",
+       "image": "Clean Showcase.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.1638, 0.0963],
+           [0.7611, 0.1494],
+           [0.8428, 0.6626],
+           [0.2333, 0.6622]
+         ]
+       }
+     },
+     {
+       "id": "coastal-laptop",
+       "name": "Coastal Laptop",
+       "blurb": "Laptop mockup with a coastal setting",
+       "image": "Coastal Laptop.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.4509, 0.2212],
+           [0.8279, 0.3039],
+           [0.7683, 0.6468],
+           [0.3993, 0.5254]
+         ]
+       }
+     },
+     {
+       "id": "code-desk",
+       "name": "Code Desk",
+       "blurb": "Laptop display arranged on a developer desk",
+       "image": "Code Desk.png",
+       "category": "fixedScene",
+       "cornerRadius": 12,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.1826, 0.1149],
+           [0.7289, 0.0921],
+           [0.7658, 0.5420],
+           [0.2173, 0.6359]
+         ]
+       }
+     },
+     {
+       "id": "dark-essentials",
+       "name": "Dark Essentials",
+       "blurb": "Minimal dark display mockup",
+       "image": "Dark Essentials.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.2612, 0.1332],
+           [0.7413, 0.1332],
+           [0.7511, 0.5049],
+           [0.2516, 0.5049]
+         ]
+       }
+     },
+     {
+       "id": "floating-display",
+       "name": "Floating Display",
+       "blurb": "Floating monitor display mockup",
+       "image": "Floating Display.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.3265, 0.2706],
+           [0.6784, 0.2661],
+           [0.6859, 0.5412],
+           [0.3338, 0.5629]
+         ]
+       }
+     },
+     
+     {
+       "id": "floating-laptop",
+       "name": "Floating Laptop",
+       "blurb": "Laptop floating in a clean composition",
+       "image": "Floating Laptop.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.2089, 0.2245],
+           [0.7904, 0.2254],
+           [0.7956, 0.7400],
+           [0.2074, 0.7384]
+         ]
+       }
+     },
+     {
+       "id": "floating-macbook",
+       "name": "Floating MacBook",
+       "blurb": "Floating MacBook display mockup",
+       "image": "Floating Macbook.png",
+       "category": "fixedScene",
+       "cornerRadius": 8,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.1593, 0.2092],
+           [0.5854, 0.1542],
+           [0.6356, 0.5201],
+           [0.2155, 0.6137]
+         ]
+       }
+     },
+     
+     
+     
+     {
+       "id": "gallery-display",
+       "name": "Gallery Display",
+       "blurb": "Display mockup in a gallery-inspired setting",
+       "image": "Gallery Display.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.1975, 0.1373],
+           [0.8044, 0.1372],
+           [0.8056, 0.6103],
+           [0.1981, 0.6099]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "green-lounge",
+       "name": "Green Lounge",
+       "blurb": "Display mockup in a soft green lounge",
+       "image": "Green Lounge.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.4424, 0.2972],
+           [0.7734, 0.3340],
+           [0.7111, 0.6793],
+           [0.3770, 0.6141]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "green-studio",
+       "name": "Green Studio",
+       "blurb": "Display mockup in a modern green studio",
+       "image": "Green Studio.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.2254, 0.1540],
+           [0.7934, 0.1108],
+           [0.7818, 0.6440],
+           [0.2131, 0.6283]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "handheld-macbook",
+       "name": "Handheld MacBook",
+       "blurb": "MacBook held in hand for a natural presentation",
+       "image": "Handheld Macbook.png",
+       "category": "fixedScene",
+       "cornerRadius": 8,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.1403, 0.1752],
+           [0.6371, 0.0657],
+           [0.6768, 0.5297],
+           [0.1866, 0.6788]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "imac",
+       "name": "iMac",
+       "blurb": "Clean iMac display mockup",
+       "image": "iMac.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.2134, 0.1345],
+           [0.7374, 0.2562],
+           [0.7947, 0.6536],
+           [0.2517, 0.5895]
+         ]
+       }
+     },
+
+
+     {
+       "id": "leather-lounge",
+       "name": "Leather Lounge",
+       "blurb": "Display mockup in a warm leather setting",
+       "image": "Leather Lounge.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.3264, 0.3493],
+           [0.6722, 0.3499],
+           [0.6791, 0.6332],
+           [0.3194, 0.6305]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "leather-seat",
+       "name": "Leather Seat",
+       "blurb": "Display mockup against a leather seating setup",
+       "image": "Leather Seat.png",
+       "category": "fixedScene",
+       "cornerRadius": 8,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.4230, 0.1995],
+           [0.8111, 0.2649],
+           [0.7316, 0.6867],
+           [0.3463, 0.5697]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "minimal-shelf",
+       "name": "Minimal Shelf",
+       "blurb": "Minimal display arranged on a clean shelf",
+       "image": "Minimal Shelf.png",
+       "category": "fixedScene",
+       "cornerRadius": 2,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.2578, 0.2852],
+           [0.7391, 0.2851],
+           [0.7387, 0.7139],
+           [0.2557, 0.7116]
+         ]
+       }
+     },
+     
+     
+     
+     {
+       "id": "neon-pedestal",
+       "name": "Neon Pedestal",
+       "blurb": "Display mockup with a neon pedestal setting",
+       "image": "Neon Pedestal.png",
+       "category": "fixedScene",
+       "cornerRadius": 0,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.2434, 0.1617],
+           [0.6822, 0.2895],
+           [0.7162, 0.6692],
+           [0.2696, 0.5670]
+         ]
+       }
+     },
+     
+     
+     
+     {
+       "id": "oblique-studio",
+       "name": "Oblique Studio",
+       "blurb": "Angled display mockup in a modern studio",
+       "image": "Oblique Studio.png",
+       "category": "fixedScene",
+       "cornerRadius": 2,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.2382, 0.1294],
+           [0.7163, 0.3352],
+           [0.7678, 0.7729],
+           [0.2702, 0.5939]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "shadow-desk",
+       "name": "Shadow Desk",
+       "blurb": "Display mockup with dramatic desk shadows",
+       "image": "Shadow Desk.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.2332, 0.0892],
+           [0.7726, 0.1920],
+           [0.8105, 0.6537],
+           [0.2611, 0.6485]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "soft-corner",
+       "name": "Soft Corner",
+       "blurb": "Soft minimal display corner scene",
+       "image": "Soft Corner.png",
+       "category": "fixedScene",
+       "cornerRadius": 6,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.4580, 0.2143],
+           [0.8000, 0.1700],
+           [0.7896, 0.6570],
+           [0.4495, 0.5855]
+         ]
+       }
+     },
+     
+     
+     
+     {
+       "id": "soft-lounge",
+       "name": "Soft Lounge",
+       "blurb": "Display mockup in a soft lounge environment",
+       "image": "Soft Lounge.png",
+       "category": "fixedScene",
+       "cornerRadius": 16,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.4376, 0.2476],
+           [0.7996, 0.2554],
+           [0.7468, 0.6482],
+           [0.3818, 0.6047]
+         ]
+       }
+     },
+     
+     
+     
+     {
+       "id": "stone-display",
+       "name": "Stone Display",
+       "blurb": "Display mockup with a natural stone setting",
+       "image": "Stone Display.png",
+       "category": "fixedScene",
+       "cornerRadius": 12,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.2669, 0.2004],
+           [0.6225, 0.2110],
+           [0.6664, 0.5454],
+           [0.3022, 0.5645]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "studio",
+       "name": "Studio",
+       "blurb": "Clean studio display mockup",
+       "image": "studiodisplay.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.2528, 0.2429],
+           [0.7574, 0.1145],
+           [0.7529, 0.5777],
+           [0.2567, 0.7545]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "studio-front",
+       "name": "Studio Front",
+       "blurb": "Front-facing display in a clean studio",
+       "image": "Studio Front.png",
+       "category": "fixedScene",
+       "cornerRadius": 8,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.17, 0.15],
+           [0.83, 0.15],
+           [0.83, 0.65],
+           [0.17, 0.65]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "sunlit-steps",
+       "name": "Sunlit Steps",
+       "blurb": "Display mockup in a bright sunlit setting",
+       "image": "Sunlit Steps.png",
+       "category": "fixedScene",
+       "cornerRadius": 14,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.2177, 0.1795],
+           [0.6705, 0.1189],
+           [0.7059, 0.5443],
+           [0.2535, 0.6227]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "warm",
+       "name": "Warm",
+       "blurb": "Display mockup with a warm ambient setting",
+       "image": "Warm.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.2406, 0.1510],
+           [0.7915, 0.1931],
+           [0.7966, 0.6410],
+           [0.2461, 0.6715]
+         ]
+       }
+     },
+     
+     
+     {
+       "id": "workspace",
+       "name": "Workspace",
+       "blurb": "Display mockup in a modern workspace",
+       "image": "Workspace.png",
+       "category": "fixedScene",
+       "cornerRadius": 4,
+       "screen": {
+         "mode": "quad",
+         "points": [
+           [0.3962, 0.1877],
+           [0.8254, 0.1588],
+           [0.8113, 0.5745],
+           [0.3803, 0.5327]
+         ]
+       }
+     }
+    
+    
+  ]
+}
